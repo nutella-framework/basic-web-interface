@@ -1,0 +1,11 @@
+{
+  "name": "basic-web-interface",
+  "version": "0.1.0",
+	"private": true,
+  "dependencies": {
+    "core-elements": "Polymer/core-elements#^0.4.0",
+    "paper-elements": "Polymer/paper-elements#^0.4.0",
+    "polymer": "Polymer/polymer#^0.4.0"
+  },
+  "devDependencies": {}
+}
