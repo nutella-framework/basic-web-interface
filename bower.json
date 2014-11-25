@@ -1,11 +1,29 @@
 {
   "name": "basic-web-interface",
   "version": "0.1.0",
-	"private": true,
-  "dependencies": {
-    "core-elements": "Polymer/core-elements#^0.4.0",
-    "paper-elements": "Polymer/paper-elements#^0.4.0",
-    "polymer": "Polymer/polymer#^0.4.0"
+  "authors": [
+    "Alessandro Gnoli <tebemis@gmail.com>"
+  ],
+  "description": "The simple possible nutella interface designed using only standard web technologies",
+  "main": "index.html",
+  "keywords": [
+    "nutella",
+    "interface",
+    "web"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "resolutions": {
+    "nutella_lib": "~0.2.0"
   },
-  "devDependencies": {}
+  "dependencies": {
+    "nutella_lib": "~0.2.0"
+  }
 }
