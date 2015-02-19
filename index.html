@@ -22,10 +22,18 @@
 	// Parse the query parameters
 	var query_parameters = NUTELLA.parseURLParameters();
 
-	// Get an instance of nutella. Remember to change the interface name!
+	// Get an instance of nutella. 
+	// NOTE: Remember to change the interface name!
 	var nutella = NUTELLA.init(query_parameters.run_id, query_parameters.broker, 'your_interface_name');
 	
-	// Your code that uses the nutella instance here.
+	// (Optional) Set the resourceId
+	// nutella.setResourceId('my_resource_id');
+	
+	
+	// Your code that uses the nutella instance here
+	
+	
+	// EXAMPLES
 	// You can do stuff like:
 	
 	// 1. Subscribing to a channel
@@ -67,7 +75,17 @@
 		// var response = {a: 'proper', key: 'value'};
 		return response;
 	});
-		
+	
+	// 6. Access the variables that uniquely identify this instance of this component
+	nutella.runId;
+	nutella.componentId;
+	nutella.resourceId;
+	
+	// 7. Do you need an extra instance of nutella (to work with React for instance)? Not a problem...
+	// var nutella2 = NUTELLA.init(query_parameters.run_id, query_parameters.broker, 'your_interface_name');
+	
+	// HAVE FUN WITH nutella!
+	
 	</script>
 				
 </body>
