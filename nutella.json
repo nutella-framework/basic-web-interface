@@ -1,6 +1,6 @@
 {
 	"name": "basic-web-interface",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"type": "interface",
 	"description": "The simple possible nutella interface designed using only standard web technologies"
 }
